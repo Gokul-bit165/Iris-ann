@@ -10,22 +10,26 @@ The model is trained on the famous [Iris dataset](https://archive.ics.uci.edu/ml
 ---
 
 ## 📂 Project Structure
-```bash
 ├── artifacts/
-│ └── iris_ann.h5 # Saved trained ANN model
+│   └── iris_ann.h5              # Saved trained ANN model
 │
 ├── data/
-│ ├── database.sqlite # Example SQLite database (optional usage)
-│ └── Iris.csv # Dataset (150 samples, 4 features, 3 classes)
+│   ├── database.sqlite           # Example SQLite database (optional usage)
+│   └── Iris.csv                  # Dataset (150 samples, 4 features, 3 classes)
+│
+├── images/
+│   ├── confusion_matrix.png      # Confusion matrix
+│   ├── accuracy_plot.png         # Training vs Validation Accuracy
+│   └── loss_plot.png             # Training vs Validation Loss
 │
 ├── src/
-│ ├── eda.ipynb # Exploratory Data Analysis
-│ ├── encode+scale.ipynb # Encoding + Feature Scaling
-│ ├── preprocess.ipynb # Full preprocessing pipeline
-│ └── train.ipynb # ANN training and evaluation
+│   ├── eda.ipynb                 # Exploratory Data Analysis
+│   ├── encode+scale.ipynb        # Encoding + Feature Scaling
+│   ├── preprocess.ipynb          # Full preprocessing pipeline
+│   └── train.ipynb               # ANN training and evaluation
 │
-└── Readme.md # Project documentation
-```
+└── README.md                     # Project documentation
+
 ---
 
 ## ⚙️ Workflow
@@ -51,9 +55,15 @@ The model is trained on the famous [Iris dataset](https://archive.ics.uci.edu/ml
 
 ## 📊 Results
 - **Test Accuracy:** 96.67%  
-- **Confusion Matrix:**  
 
+### Confusion Matrix
 ![Confusion Matrix](images/confusion_matrix.png)
+
+### Training vs Validation Accuracy
+![Accuracy Plot](images/validation_acc_vs_train_acc.png)
+
+### Training vs Validation Loss
+![Loss Plot](images/loss.png)
 
 ---
 
