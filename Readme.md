@@ -10,7 +10,7 @@ The model is trained on the famous [Iris dataset](https://archive.ics.uci.edu/ml
 ---
 
 ## 📂 Project Structure
----
+```bash
 ├── artifacts/
 │ └── iris_ann.h5 # Saved trained ANN model
 │
@@ -25,7 +25,7 @@ The model is trained on the famous [Iris dataset](https://archive.ics.uci.edu/ml
 │ └── train.ipynb # ANN training and evaluation
 │
 └── Readme.md # Project documentation
-
+```
 ---
 
 ## ⚙️ Workflow
@@ -60,8 +60,8 @@ The model is trained on the famous [Iris dataset](https://archive.ics.uci.edu/ml
 ## 🚀 How to Run
 1. Clone the repository:
 ```bash
-   git clone https://github.com/Gokul-bit165/Iris-ann.git
-   cd iris-ann
+git clone https://github.com/Gokul-bit165/Iris-ann.git
+cd iris-ann
 ```
 
 ## Install dependencies
